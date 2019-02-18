@@ -1,0 +1,66 @@
+.prices .title-small {
+  color: gray;
+}
+
+.bundle, .bundle-head, .bundle-footer {
+  border-radius: 12px;
+}
+
+.bundle-head, .bundle-footer {
+  color: gray;
+  padding: 10px 0;
+}
+
+.bundle {
+  background: #c7e1ff;
+  border-color: #307edc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  width: 90%;
+  margin: auto;
+}
+
+.bundle-head {
+  border-bottom: 1px solid #ccc;
+}
+
+.bundle .bundle-price{
+  font-weight: normal;
+}
+
+.bundle-features-item {
+  margin: 20px 0px;
+}
+
+.bundle-head .text-lead,
+.bundle-head .title-medium {
+  color: #444;
+  margin: 0;
+}
+
+.bundle-footer .title-medium {
+  margin-bottom: 0;
+}
+
+.bundle .bundle-footer {
+  color: #fff;
+  background: #75b0ff;
+  border-color: #307edc;
+  background-image: url(), linear-gradient(gray 1px, transparent 1px);
+  background-size: 100% 100%, 2px 2px;
+}
+
+.bundle .bundle-head {
+  border-color: gray;
+  background: #fff;
+  background-image: url(), linear-gradient(gray 1px, transparent 1px);
+  background-size: 100% 100%, 2px 2px;
+}
+
+.bundle .options {
+  min-height: 180px;
+  max-width: 70%;
+  margin-left: auto;
+  list-style: none;
+  list-style-image: url(../images/marker.png);
+}

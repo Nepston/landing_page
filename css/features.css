@@ -1,0 +1,25 @@
+.features {
+  padding: 40px 0;
+  background: #f3f3f3;
+}
+
+.features-item {
+  padding: 10px;
+}
+
+.features-icon img {
+  height:100%;
+}
+
+.features-name {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 4px solid #054a94;
+  border-radius: 4px
+}
+
+.features-name legend {
+  color: #444;
+}

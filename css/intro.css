@@ -1,0 +1,67 @@
+.intro {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
+                    url("../images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+  padding: 40px;
+  margin-top: 80px;
+}
+
+.intro-description {
+  float: left;
+  width: 53%;
+  height: auto;
+  clear: both;
+}
+
+.intro-logo {
+  float: right;
+  width: 43%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.intro-logo img {
+  max-height: 300px;
+  width: auto;
+}
+
+.intro .title-large {
+  color: #054a94;
+}
+
+.intro .text-lead {
+  text-align: left;
+  max-width: 70%;
+  margin: 5% 0;
+  padding-left: 20px;
+  margin-left: 35px;
+}
+
+
+@media (max-width: 780px) {
+  .intro-logo img {
+    width: 100%;
+  }
+}  
+
+@media (max-width: 650px) {
+  .intro-logo, .intro-description {
+    float: left;
+    width: 100%;
+  }
+  
+  .intro-logo img {
+    max-height: 200px;
+    width: auto;
+  }
+} 
+
+@media (max-width: 640px) {
+  .intro {
+    margin-top: 0;
+  }
+}

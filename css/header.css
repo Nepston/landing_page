@@ -1,0 +1,41 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  opacity: 0.95;
+}
+
+.header-logo-image {
+  float: left;
+  display: block;
+  width: 280px;
+  height: 40px;
+  padding: 20px 20px;
+}
+
+.header-phone {
+  float: right;
+  display: block;
+  height: 40px;
+  padding: 20px 20px;
+  line-height: 30px;
+}
+
+@media (max-width: 640px) {
+  .header {
+    position: inherit;
+    width: auto;
+    background: #fff;
+    top: auto;
+    opacity: 1;
+  }
+}
+
+@media (max-width: 524px) {
+  .header-logo-image, .header-phone {
+    float: none;
+    padding: 0;
+    margin: 5px auto;
+  }
+}  

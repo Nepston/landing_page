@@ -1,0 +1,40 @@
+.reviews {
+  padding: 40px 0;
+  background: #eee;
+}
+
+.reviews .container .text-center {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.reviews-client {
+  padding: 10px;
+}
+
+.client-image {
+  display: inline-block;
+  width: 160px;
+}
+
+.client-photo {
+  border: 3px solid #fff;
+  border-radius: 100%;
+  height: auto;
+  border-color: #eee;
+}
+
+.client-details {
+  display: inline-block;
+  max-width: 270px;
+  margin-left: 20px;
+}
+
+.client-details .text-small {
+  display: block;
+  color: #ff2a68;
+}
+
+.client-details .text-medium {
+  margin-bottom: 20px;
+}
